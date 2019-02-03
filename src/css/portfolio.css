@@ -1,0 +1,69 @@
+.App {
+margin-top: 15px;
+background: #43C6AC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #43C6AC, #005b9f );  /* 191654 Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #43C6AC,#005b9f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+display: block;
+height: calc(100vh );
+
+
+bottom: 0;
+z-index: 1;
+
+}
+.App .navbar-brand {
+font-weight: bold;
+}
+
+
+.panel-header{
+ border: 1px solid #005B9F!important ;
+ background-color: #005B9F !important;
+ color:  #ffffff !important;
+ font-weight: 600;
+
+}
+.panel-header:hover{
+ background-color: #0b77c4 !important;
+}
+
+ul.square {
+ list-style-type: square;
+}
+
+.contact-title{
+ color: #ffffff;
+ font-weight: 600;
+}
+.text-white{
+ color: #ffffff;
+}
+
+.cont-Form-field{
+ width: 10%;
+}
+
+.footer {
+   position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  /* background-color: #f5f5f5;  */
+
+
+}
+.footer-colours{
+ background:
+  linear-gradient(purple 0%, red 90%),
+  linear-gradient(to right, purple 0%, yellow 90%);
+  background-blend-mode: screen, difference, lighten;
+}
+.social-media{
+ margin-right: 5px;
+ color: white;
+}
+.footer-text{
+ color: #005b9f;
+ font-weight: 600;
+}

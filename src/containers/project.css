@@ -1,0 +1,17 @@
+.panel-header{
+ border: 1px solid #005B9F!important ;
+ background-color: #005B9F !important;
+ color:  #ffffff !important;
+ font-weight: 600;
+
+}
+.panel-header:hover{
+ background-color: #0b77c4 !important;
+}
+
+ul.square {
+ list-style-type: square;
+}
+.oc-th{
+ font-weight: 600;
+}
